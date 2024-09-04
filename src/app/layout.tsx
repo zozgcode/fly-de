@@ -7,8 +7,8 @@ import Header from "@/components/header/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Global Shipping and Logistics Services | UPS",
-  description: "Global Shipping and Logistics Services | UPS",
+  title: "Fly with us | Flights &amp; Plane Tickets + Hotels &amp; Rental Cars",
+  description: "Fly with us | Flights &amp; Plane Tickets + Hotels &amp; Rental Cars",
 };
 
 export default function RootLayout({
