@@ -16,13 +16,6 @@ export const flightData: FlightDetails[] = [
       time: '10:00 PM',
       date: 'Sept 10, 2024'
     },
-    stopover: {
-      city: 'Paris',
-      airportCode: 'CDG',
-      startTime: '2:00 PM',
-      endTime: '4:00 PM',
-      date: 'Sept 10, 2024'
-    },
     passengerInfo: {
       name: 'John Doe',
       ticketNumber: 'X12345678',
@@ -33,12 +26,12 @@ export const flightData: FlightDetails[] = [
       contactInfo: {
         email: 'john.doe@example.com',
         phone: '+1234567890'
-      },
+      }
     },
     pricing: {
       ticketPrice: 350.0,
       taxes: 50.0,
       total: 400.0
     }
-  },
+  }
 ];
