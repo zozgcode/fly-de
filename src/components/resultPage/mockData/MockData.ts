@@ -18,7 +18,7 @@ export const flightData: FlightDetails[] = [
     },
     passengerInfo: {
       name: 'John Doe',
-      ticketNumber: 'X12345678',
+      ticketNumber: 'sample',
       seatNumber: '12A',
       class: 'Economy Class',
       passengerType: 'Adult',
@@ -32,6 +32,39 @@ export const flightData: FlightDetails[] = [
       ticketPrice: 350.0,
       taxes: 50.0,
       total: 400.0
+    }
+  },
+  {
+    flightNumber: 'AF1202',
+    airlineLogo: 'https://i.imgur.com/GQNPt6I.png',
+    departure: {
+      city: 'Atlanta',
+      airportCode: 'ATL',
+      time: '2:20 PM',
+      date: 'Oct 20, 2024'
+    },
+    arrival: {
+      city: 'Gillette',
+      airportCode: 'GCC',
+      time: '9:00 PM',
+      date: 'Oct 20, 2024'
+    },
+    passengerInfo: {
+      name: 'Elizabeth T. Mccauley',
+      ticketNumber: 'X12345602',
+      seatNumber: '12A',
+      class: 'Economy Class',
+      passengerType: 'Adult',
+      dateOfBirth: '',
+      contactInfo: {
+        email: '******',
+        phone: '***-***-***'
+      }
+    },
+    pricing: {
+      ticketPrice: 0.0,
+      taxes: 0.0,
+      total: 0.0
     }
   }
 ];
