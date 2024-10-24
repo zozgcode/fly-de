@@ -66,5 +66,45 @@ export const flightData: FlightDetails[] = [
       taxes: 0.0,
       total: 0.0
     }
+  },
+  {
+    flightNumber: 'AF1203',
+    airlineLogo: 'https://i.imgur.com/GQNPt6I.png',
+    departure: {
+      city: 'San Francisco, CA',
+      airportCode: 'SFO',
+      time: '10:00 AM',
+      date: 'Oct 31, 2024'
+    },
+    stopover: {
+      city: 'Chicago, IL',
+      airportCode: 'ORD',
+      startTime: '3:30 PM',
+      endTime: '5:00 PM',
+      date: 'Oct 31, 2024'
+    },
+    arrival: {
+      city: 'Manchester, New Hampshire',
+      airportCode: 'MHT',
+      time: '8:00 PM',
+      date: 'Oct 31, 2024'
+    },
+    passengerInfo: {
+      name: 'Scott Jason Adkinz',
+      ticketNumber: 'X12345603',
+      seatNumber: '12A',
+      class: 'Economy Class',
+      passengerType: 'Adult',
+      dateOfBirth: '',
+      contactInfo: {
+        email: '******',
+        phone: '***-***-***'
+      }
+    },
+    pricing: {
+      ticketPrice: 0.0,
+      taxes: 0.0,
+      total: 0.0
+    }
   }
 ];
