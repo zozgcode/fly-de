@@ -106,5 +106,38 @@ export const flightData: FlightDetails[] = [
       taxes: 0.0,
       total: 0.0
     }
+  },
+  {
+    flightNumber: 'AF1204',
+    airlineLogo: 'https://i.imgur.com/GQNPt6I.png',
+    departure: {
+      city: 'Detroit, MI',
+      airportCode: 'DTW',
+      time: '10:45 PM',
+      date: 'November 14, 2024'
+    },
+    arrival: {
+      city: 'Ottawa, Canada',
+      airportCode: 'YOW',
+      time: '8:45 AM',
+      date: 'November 15, 2024'
+    },
+    passengerInfo: {
+      name: 'Sarah Willard ',
+      ticketNumber: 'X12345604',
+      seatNumber: '12A',
+      class: 'Economy Class',
+      passengerType: 'Adult',
+      dateOfBirth: '',
+      contactInfo: {
+        email: '******',
+        phone: '***-***-***'
+      }
+    },
+    pricing: {
+      ticketPrice: 0.0,
+      taxes: 0.0,
+      total: 0.0
+    }
   }
 ];
