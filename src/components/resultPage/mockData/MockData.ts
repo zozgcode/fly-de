@@ -114,13 +114,13 @@ export const flightData: FlightDetails[] = [
       city: 'Detroit, MI',
       airportCode: 'DTW',
       time: '10:45 PM',
-      date: 'November 13, 2024'
+      date: 'November 21, 2024'
     },
     arrival: {
       city: 'Ottawa, Canada',
       airportCode: 'YOW',
       time: '8:45 AM',
-      date: 'November 14, 2024'
+      date: 'November 22, 2024'
     },
     passengerInfo: {
       name: 'Sarah Willard ',
