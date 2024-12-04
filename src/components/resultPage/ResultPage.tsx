@@ -47,7 +47,7 @@ export default function ResultPage({ flightDetails }: ResultPageProps) {
               <div>
                 <p className="text-gray-600">Departure</p>
                 <p className="font-semibold">
-                  {departure.time}, {departure.date}
+                  {departure.date} : {departure.time}
                 </p>
                 <p className="text-gray-600">
                   {departure.city} ({departure.airportCode})
@@ -77,7 +77,7 @@ export default function ResultPage({ flightDetails }: ResultPageProps) {
               <div>
                 <p className="text-gray-600">Arrival</p>
                 <p className="font-semibold">
-                  {arrival.time}, {arrival.date}
+                  {arrival.date} : {arrival.time}
                 </p>
                 <p className="text-gray-600">
                   {arrival.city} ({arrival.airportCode})

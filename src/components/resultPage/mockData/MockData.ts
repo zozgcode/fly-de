@@ -108,29 +108,29 @@ export const flightData: FlightDetails[] = [
     }
   },
   {
-    flightNumber: 'AF1204',
+    flightNumber: 'AF1205',
     airlineLogo: 'https://i.imgur.com/GQNPt6I.png',
     departure: {
-      city: 'Detroit, MI',
-      airportCode: 'DTW',
-      time: '10:45 PM',
-      date: 'November 21, 2024'
+      city: 'Killeen, TX, USA',
+      airportCode: 'GRK',
+      time: '12:00 PM',
+      date: 'December 6, 2024'
     },
     arrival: {
-      city: 'Ottawa, Canada',
-      airportCode: 'YOW',
-      time: '8:45 AM',
-      date: 'November 22, 2024'
+      city: 'Great Falls, MT, USA',
+      airportCode: 'GTF',
+      time: '7:00 PM',
+      date: 'December 6, 2024'
     },
     passengerInfo: {
-      name: 'Sarah Willard ',
-      ticketNumber: 'X12345604',
+      name: 'Melissa Zumar Taitt',
+      ticketNumber: 'X12345605',
       seatNumber: '12A',
       class: 'Economy Class',
       passengerType: 'Adult',
       dateOfBirth: '',
       contactInfo: {
-        email: '******',
+        email: 'suebynum44@gmail.com',
         phone: '***-***-***'
       }
     },
