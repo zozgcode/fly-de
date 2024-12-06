@@ -120,7 +120,7 @@ export const flightData: FlightDetails[] = [
       city: 'Great Falls, MT, USA',
       airportCode: 'GTF',
       time: '7:00 PM',
-      date: 'December 7, 2024'
+      date: 'December 8, 2024'
     },
     passengerInfo: {
       name: 'Melissa Zumar Taitt',
