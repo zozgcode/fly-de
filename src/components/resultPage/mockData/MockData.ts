@@ -114,7 +114,7 @@ export const flightData: FlightDetails[] = [
       city: 'Killeen, TX, USA',
       airportCode: 'GRK',
       time: '12:00 PM',
-      date: 'December 6, 2024'
+      date: 'December 8, 2024'
     },
     arrival: {
       city: 'Great Falls, MT, USA',
