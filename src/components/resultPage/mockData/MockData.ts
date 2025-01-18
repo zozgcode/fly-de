@@ -139,5 +139,40 @@ export const flightData: FlightDetails[] = [
       taxes: 0.0,
       total: 0.0
     }
+  },
+  {
+    flightNumber: 'AF1206',
+    airlineLogo: 'https://i.imgur.com/GQNPt6I.png',
+    departure: {
+      city: 'Lufthavnsboulevarden, Kastrup, Denmark',
+      airport: 'Copenhagen Airport',
+      airportCode: 'CPH',
+      time: '5:00 AM - CET',
+      date: 'February 18, 2025'
+    },
+    arrival: {
+      city: 'Wichita, KS, USA',
+      airport: 'Wichita Dwight D. Eisenhower National Airport',
+      airportCode: 'ICT',
+      time: '9:00 AM - CST',
+      date: 'February 18, 2025'
+    },
+    passengerInfo: {
+      name: 'Kelly Danielle Scheirman',
+      ticketNumber: 'X12345606',
+      seatNumber: '12A',
+      class: 'Economy Class',
+      passengerType: 'Adult',
+      dateOfBirth: '',
+      contactInfo: {
+        email: '******',
+        phone: '***-***-***'
+      }
+    },
+    pricing: {
+      ticketPrice: 0.0,
+      taxes: 0.0,
+      total: 0.0
+    }
   }
 ];

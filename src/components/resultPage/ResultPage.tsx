@@ -52,6 +52,7 @@ export default function ResultPage({ flightDetails }: ResultPageProps) {
                 <p className="text-gray-600">
                   {departure.city} ({departure.airportCode})
                 </p>
+                <p className="text-gray-400 text-sm">Airport: {departure.airport}</p>
               </div>
             </div>
             {/* Stopover Section */}
@@ -67,6 +68,7 @@ export default function ResultPage({ flightDetails }: ResultPageProps) {
                     <p className="text-gray-600">
                       {stopover.city} ({stopover.airportCode})
                     </p>
+                    <p className="text-gray-400 text-sm">Airport: {departure.airport}</p>
                   </div>
                 </div>
               </div>
@@ -82,6 +84,7 @@ export default function ResultPage({ flightDetails }: ResultPageProps) {
                 <p className="text-gray-600">
                   {arrival.city} ({arrival.airportCode})
                 </p>
+                <p className="text-gray-400 text-sm">Airport: {arrival.airport}</p>
               </div>
             </div>
           </div>

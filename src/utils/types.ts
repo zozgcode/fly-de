@@ -11,6 +11,7 @@ export interface FlightDetails {
 
 export interface LocationDetails {
   city: string;
+  airport?: string;
   airportCode: string;
   time: string;
   date: string;
@@ -18,6 +19,7 @@ export interface LocationDetails {
 
 export interface StopoverDetails {
   city: string;
+  airport?: string;
   airportCode: string;
   startTime: string;
   endTime: string;
