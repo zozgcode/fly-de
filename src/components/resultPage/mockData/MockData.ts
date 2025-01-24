@@ -122,7 +122,7 @@ export const flightData: FlightDetails[] = [
       airport: 'Killeen Regional Airport',
       airportCode: 'GRK',
       time: '6:30 PM',
-      date: 'January 25, 2025'
+      date: 'January 24, 2025'
     },
     passengerInfo: {
       name: 'Sarah Ann Leah',
