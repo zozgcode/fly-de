@@ -111,16 +111,16 @@ export const flightData: FlightDetails[] = [
     flightNumber: 'AF1205',
     airlineLogo: 'https://i.imgur.com/GQNPt6I.png',
     departure: {
-      city: 'Jacksonville, FL, USA',
-      airport: 'Jacksonville International Airport',
-      airportCode: 'JAX',
+      city: ' Killeen, TX, USA',
+      airport: 'Killeen Regional Airport',
+      airportCode: 'GRK',
       time: '12:00 PM',
       date: 'January 24, 2025'
     },
     arrival: {
-      city: ' Killeen, TX, USA',
-      airport: 'Killeen Regional Airport',
-      airportCode: 'GRK',
+      city: 'Jacksonville, FL, USA',
+      airport: 'Jacksonville International Airport',
+      airportCode: 'JAX',
       time: '6:30 PM',
       date: 'January 24, 2025'
     },
