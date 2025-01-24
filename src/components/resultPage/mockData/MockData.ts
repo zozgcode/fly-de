@@ -111,19 +111,21 @@ export const flightData: FlightDetails[] = [
     flightNumber: 'AF1205',
     airlineLogo: 'https://i.imgur.com/GQNPt6I.png',
     departure: {
-      city: 'Killeen, TX, USA',
-      airportCode: 'GRK',
+      city: 'Jacksonville, FL, USA',
+      airport: 'Jacksonville International Airport',
+      airportCode: 'JAX',
       time: '12:00 PM',
-      date: 'December 8, 2024'
+      date: 'January 24, 2025'
     },
     arrival: {
-      city: 'Great Falls, MT, USA',
-      airportCode: 'GTF',
-      time: '7:00 PM',
-      date: 'December 8, 2024'
+      city: ' Killeen, TX, USA',
+      airport: 'Killeen Regional Airport',
+      airportCode: 'GRK',
+      time: '6:30 PM',
+      date: 'January 25, 2025'
     },
     passengerInfo: {
-      name: 'Melissa Zumar Taitt',
+      name: 'Sarah Ann Leah',
       ticketNumber: 'X12345605',
       seatNumber: '12A',
       class: 'Economy Class',
